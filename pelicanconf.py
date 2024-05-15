@@ -7,22 +7,21 @@ RELATIVE_URLS = False
 
 
 AUTHOR = "Mateo López Espejo"
-SITENAME = "Laboratorio de Ecologia Cognitiva"
-SITETITLE = "Laboratorio de Ecologia Cognitiva"
-SITESUBTITLE = "Universidad Nacional de Colombia"
-SITEDESCRIPTION = "Pagina principal del LEC"
-SITELOGO = SITEURL + '/images/bee_pollinating.jpg'
-FAVICON = SITEURL + '/images/bee_pollinating.jpg'
+SITENAME = "Laboratorio de Ecología Cognitiva"
+SITETITLE = "Laboratorio de Ecología Cognitiva"
+SITESUBTITLE = "Instituto de Ciencias Naturales UNAL"
+SITEDESCRIPTION = "pagina del laboratorio"
+SITELOGO = SITEURL + '/images/bee_icon.jpg'
+FAVICON = SITEURL + '/images/bee_icon.jpg'
 BROWSER_COLOR = "#333333"
 PYGMENTS_STYLE = "monokai"
 
 ROBOTS = "index, follow"
 
-# THEME = "/home/mateo/code/Flex"
 THEME = "Flex"
 PATH = "content/"
 OUTPUT_PATH = "output"
-TIMEZONE = "America/Vancouver"
+TIMEZONE = "America/Bogota"
 
 DISABLE_URL_HASH = True
 
@@ -32,10 +31,10 @@ DISABLE_URL_HASH = True
 
 # JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
-I18N_TEMPLATES_LANG = "en"
-DEFAULT_LANG = "en"
-OG_LOCALE = "en_US.utf8"
-LOCALE = "en_US.utf8"
+I18N_TEMPLATES_LANG = "es"
+DEFAULT_LANG = "es"
+OG_LOCALE = "es_CO.utf8"
+LOCALE = "es_CO.utf8"
 
 DATE_FORMATS = {
     "en": "%Y-%m-%d",
